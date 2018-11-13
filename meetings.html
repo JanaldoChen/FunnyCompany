@@ -100,14 +100,14 @@
                                     <label>用户名：</label>
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="username"
-                                               placeholder="Like： 孙瑜爵士">
+                                               placeholder="Like： Edward Fish">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label>邮箱：</label>
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email"
-                                               placeholder="Like： Sunyu@gmail.com">
+                                               placeholder="Like： Edward_Fish@gmail.com">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -171,9 +171,9 @@
             </ul>
         </div>
         <!-- 搜索框的实现 --->
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="键入搜索内容">
-            <button class="btn my-2 my-sm-0 btn-outline-info bg-dark" type="submit">
+        <form class="form-inline my-2 my-lg-0" method="get" action="result.html">
+            <input class="form-control mr-sm-2" type="text" name="key" id="search" placeholder="键入搜索内容">
+            <button class="btn my-2 my-sm-0 btn-outline-info bg-dark" type="submit" id="submitbutton">
                 搜索
             </button>
         </form>

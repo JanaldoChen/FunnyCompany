@@ -171,9 +171,9 @@
             </ul>
         </div>
         <!-- 搜索框的实现 --->
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="键入搜索内容">
-            <button class="btn my-2 my-sm-0 btn-outline-info bg-dark" type="submit">
+        <form class="form-inline my-2 my-lg-0" method="get" action="result.html">
+            <input class="form-control mr-sm-2" type="text" name="key" id="search" placeholder="键入搜索内容">
+            <button class="btn my-2 my-sm-0 btn-outline-info bg-dark" type="submit" id="submitbutton">
                 搜索
             </button>
         </form>
@@ -181,7 +181,9 @@
 </nav>
 <!-- Navigator End --->
 <!-- Body 网页主体 --->
-Teacher
+<div id="body">
+    Result
+</div>
 <!-- Body End --->
 <!-- Footer 网页底部 --->
 <div class="py-3 bg-dark text-muted">
@@ -196,7 +198,7 @@ Teacher
                     <li><a href="meetings.html">技术会议</a></li>
                 </ul>
             </div>
-            <div class="p-3 col-lg-3 col-6" >
+            <div class="p-3 col-lg-3 col-6">
                 <h5><b>联系我们</b></h5>
                 <p class="text-muted">
                     <i class="fa d-inline mr-3 text-muted fa-phone"></i>+86 - 1234567890
@@ -212,7 +214,8 @@ Teacher
                 <h5><b>我们的理念</b></h5>
                 <p class="mb-0">
                     Funny Company
-                    由创始人Edward Fish爵士于公元1998年创立，致力于将滑稽文化推广到整个世界。我们的教育模式寓教于乐，课程体系覆盖多领域、多年龄段。只有你想不到的，没有你能想到的。我们坚信，努力不一定会成功，但是躺在床上一定很舒服。世上无难事，只要肯放弃。只要我们E得足够快乐，世人的问号就追不上我！
+                    由创始人Edward
+                    Fish爵士于公元1998年创立，致力于将滑稽文化推广到整个世界。我们的教育模式寓教于乐，课程体系覆盖多领域、多年龄段。只有你想不到的，没有你能想到的。我们坚信，努力不一定会成功，但是躺在床上一定很舒服。世上无难事，只要肯放弃。只要我们E得足够快乐，世人的问号就追不上我！
                 </p>
             </div>
         </div>
@@ -252,6 +255,25 @@ Teacher
         var searchUrl = encodeURI("result.html?key=" + searchText);   //使用encodeURI编码
         window.location.href = searchUrl;
     });
+
+    // 搜索栏搜索响应的实现
+    $(document).ready(
+        function search() {
+            // 定义搜索内容范围
+            var list = ["汉堡的组成原理"];
+            var url = window.document.location.href.toString();
+            var keys = url.split("=");
+            var key = decodeURI(keys[1]);
+            for (var item in list) {
+                if (key === item) {
+                    document.getElementById("body").innerHTML = "您的输入是：<b>" + key + "</b>,检索到1项。";
+                }
+                else {
+                    document.getElementById("body").innerHTML = "您的输入是：<b>" + key + "</b>,检索到0项。";
+                }
+            }
+        }
+    );
 </script>
 <!-- Javascript End --->
 </body>

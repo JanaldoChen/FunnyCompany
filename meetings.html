@@ -211,8 +211,8 @@ Meeting
             <div class="col-lg-6 col-md-6 p-3">
                 <h5><b>我们的理念</b></h5>
                 <p class="mb-0">
-                    Funny Conpany
-                    由创始人爱德华·孙瑜爵士于公元1998年创立，致力于将滑稽文化推广到整个世界。我们的教育模式寓教于乐，课程体系覆盖多领域、多年龄段。只有你想不到的，没有你能想到的。我们坚信，努力不一定会成功，但是躺在床上一定很舒服。世上无难事，只要肯放弃。只要我们E得足够快乐，世人的问号就追不上我！
+                    Funny Company
+                    由创始人Edward Fish爵士于公元1998年创立，致力于将滑稽文化推广到整个世界。我们的教育模式寓教于乐，课程体系覆盖多领域、多年龄段。只有你想不到的，没有你能想到的。我们坚信，努力不一定会成功，但是躺在床上一定很舒服。世上无难事，只要肯放弃。只要我们E得足够快乐，世人的问号就追不上我！
                 </p>
             </div>
         </div>
@@ -245,6 +245,13 @@ Meeting
             document.getElementById("submit").disabled = false;
         }
     }
+
+    // 搜索URL中文乱码的解决
+    $("submitbutton").click(function () {
+        var searchText = jQuery.trim($("search").val());
+        var searchUrl = encodeURI("result.html?key=" + searchText);   //使用encodeURI编码
+        window.location.href = searchUrl;
+    });
 </script>
 <!-- Javascript End --->
 </body>

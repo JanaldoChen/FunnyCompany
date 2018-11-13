@@ -320,6 +320,13 @@
             document.getElementById("submit").disabled = false;
         }
     }
+
+    // 搜索URL中文乱码的解决
+    $("submitbutton").click(function () {
+        var searchText = jQuery.trim($("search").val());
+        var searchUrl = encodeURI("result.html?key=" + searchText);   //使用encodeURI编码
+        window.location.href = searchUrl;
+    });
 </script>
 <!-- Javascript End -->
 </body>

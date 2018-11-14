@@ -11,7 +11,7 @@
     height: 60px;
     overflow: hidden;
     margin-left: -450px;
-    background: url('../img/dot.gif') left 45px repeat-x;
+    background: url('../img/about/dot.gif') left 45px repeat-x;
 }
 
 #dates li {
@@ -21,7 +21,7 @@
     height: 50px;
     font-size: 24px;
     text-align: center;
-    background: url('../img/biggerdot.png') center bottom no-repeat;
+    background: url('../img/about/biggerdot.png') center bottom no-repeat;
 }
 
 #dates a {
@@ -116,12 +116,12 @@
 
 #next {
     right: 0;
-    background-image: url('../img/next.png');
+    background-image: url('../img/about/next.png');
 }
 
 #prev {
     left: 0;
-    background-image: url('../img/prev.png');
+    background-image: url('../img/about/prev.png');
 }
 
 #next.disabled,

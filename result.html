@@ -181,9 +181,73 @@
 </nav>
 <!-- Navigator End -->
 <!-- Body 网页主体 -->
-<div id="body">
-    Result
+<div style="background: url('img/search/search-bg.jpg') no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;">
+    <!-- Search Header 搜索内容展示 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-muted">
+                <br>
+                <h4>
+                    您想要搜索的课程是： <b id="input" style="color: #0b756c"></b>, 共检索到<b id="number" style="color: #0b756c"></b>项结果。
+                </h4>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <!-- Search Header End -->
+    <!-- Search Body 搜索结果展示 -->
+    <div class="container">
+        <div class="row">
+            <div class="row" id="course">
+                <div class="col-md-4"><img class="img-fluid circle p-3" src="" alt="Card image" id="pic"></div>
+                <div class="col-md-8 text-white">
+                    <br>
+                    <h3 class="text-muted" id="name"></h3>
+                    <p id="description" class="text-dark"></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"><br></div>
+        </div>
+    </div>
+    <!-- Search Body End -->
+    <!-- Search Footer 课程推荐 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-primary">
+                <h4>
+                    <b>更多课程推荐</b>
+                </h4>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card"><img class="card-img-top" src="img/search/Pizza.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">披萨的系统结构</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"><img class="card-img-top" src="img/search/kongyiji.jpeg">
+                    <div class="card-body">
+                        <h4 class="card-title">茴香豆的“茴”究竟有几种写法</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"><img class="card-img-top" src="img/search/math.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">为何鸡和兔子在一个笼子里</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<!-- Search Footer End -->
 <!-- Body End -->
 <!-- Footer 网页底部 -->
 <div class="py-3 bg-dark text-muted">
@@ -264,12 +328,18 @@
             var url = window.document.location.href.toString();
             var keys = url.split("=");
             var key = decodeURI(keys[1]);
-            for (var item in list) {
-                if (key === item) {
-                    document.getElementById("body").innerHTML = "您的输入是：<b>" + key + "</b>,检索到1项。";
+            document.getElementById("input").innerText = key;
+            for (item in list) {
+                if (key == list[item]) {
+                    document.getElementById("number").innerText = '1';
+                    document.getElementById("name").innerText = key;
+                    document.getElementById("description").innerText = "Sulitimer 带你窥探汉堡的世界~";
+                    document.getElementById("pic").src = "img/search/Humburger.jpg";
+                    break;
                 }
                 else {
-                    document.getElementById("body").innerHTML = "您的输入是：<b>" + key + "</b>,检索到0项。";
+                    document.getElementById("number").innerText = '0';
+                    document.getElementById("course").innerHTML = '';
                 }
             }
         }

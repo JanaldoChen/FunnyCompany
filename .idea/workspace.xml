@@ -4,8 +4,8 @@
     <list default="true" id="ebd9ade0-9542-48fe-a9de-da703339becf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetings.html" beforeDir="false" afterPath="$PROJECT_DIR$/meetings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teachers.html" beforeDir="false" afterPath="$PROJECT_DIR$/teachers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/course_detail.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +35,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="13" />
-          <entry key="html" value="62" />
+          <entry key="html" value="65" />
           <entry key="js" value="18" />
           <entry key="json" value="1" />
           <entry key="markdown" value="1" />
@@ -45,7 +45,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="13" />
-          <entry key="HTML" value="62" />
+          <entry key="HTML" value="65" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="18" />
           <entry key="Markdown" value="1" />
@@ -55,17 +55,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="65" />
-          <entry key="html" value="10891" />
+          <entry key="html" value="10941" />
           <entry key="js" value="8" />
-          <entry key="txt" value="213" />
+          <entry key="txt" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="65" />
-          <entry key="HTML" value="10891" />
+          <entry key="HTML" value="10941" />
           <entry key="JavaScript" value="8" />
-          <entry key="PLAIN_TEXT" value="213" />
+          <entry key="PLAIN_TEXT" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -74,7 +74,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meetings.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
@@ -104,6 +104,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="340" column="70" selection-start-line="340" selection-start-column="70" selection-end-line="340" selection-end-column="70" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#1;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teachers.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,8 +135,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-746">
-              <caret line="246" column="68" selection-start-line="246" selection-start-column="68" selection-end-line="246" selection-end-column="68" />
+            <state relative-caret-position="320">
+              <caret line="247" column="26" lean-forward="true" selection-start-line="247" selection-start-column="26" selection-end-line="247" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="202" column="120" lean-forward="true" selection-start-line="202" selection-start-column="120" selection-end-line="202" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -186,13 +209,14 @@
         <option value="$PROJECT_DIR$/certifications.html" />
         <option value="$PROJECT_DIR$/css/timelinr.css" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/result.html" />
         <option value="$PROJECT_DIR$/charttest.html" />
         <option value="$PROJECT_DIR$/js/echart-dark.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/teachers.html" />
-        <option value="$PROJECT_DIR$/courses.html" />
         <option value="$PROJECT_DIR$/meetings.html" />
+        <option value="$PROJECT_DIR$/course_detail.html" />
+        <option value="$PROJECT_DIR$/courses.html" />
+        <option value="$PROJECT_DIR$/result.html" />
       </list>
     </option>
   </component>
@@ -297,7 +321,7 @@
       <workItem from="1542122096912" duration="583000" />
       <workItem from="1542157233225" duration="18578000" />
       <workItem from="1542196209027" duration="5710000" />
-      <workItem from="1542243020834" duration="15312000" />
+      <workItem from="1542243020834" duration="16610000" />
     </task>
     <task id="LOCAL-00001" summary="About.html Finished">
       <created>1542113421293</created>
@@ -362,11 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542262015555</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="teacher.html Finished">
+      <created>1542264354291</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542264354291</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81215000" />
+    <option name="totallyTimeSpent" value="82513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -392,7 +423,7 @@
       <window_info anchor="right" id="JSON Utils" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38506666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -428,7 +459,8 @@
     <MESSAGE value="Search Complete&#10;Rebuild img" />
     <MESSAGE value="Meeting.html Added" />
     <MESSAGE value="index &amp; course Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="index &amp; course Finished" />
+    <MESSAGE value="teacher.html Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="teacher.html Finished" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
@@ -492,18 +524,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.vidbacking.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="185" column="15" selection-start-line="185" selection-start-column="15" selection-end-line="185" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#1;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/JS视频背景/vidbacking/index2.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -574,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-746">
-          <caret line="246" column="68" selection-start-line="246" selection-start-column="68" selection-end-line="246" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meetings.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -591,6 +604,32 @@
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="247" column="26" lean-forward="true" selection-start-line="247" selection-start-column="26" selection-end-line="247" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="202" column="120" lean-forward="true" selection-start-line="202" selection-start-column="120" selection-end-line="202" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="340" column="70" selection-start-line="340" selection-start-column="70" selection-end-line="340" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

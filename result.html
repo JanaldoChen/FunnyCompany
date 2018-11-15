@@ -183,7 +183,8 @@
 </nav>
 <!-- Navigator End -->
 <!-- Body 网页主体 -->
-<div class="p-2" style="background: url('img/search/search-bg.jpg') no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;">
+<div class="p-2"
+     style="background: url('img/search/search-bg.jpg') no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;">
     <!-- Search Header 搜索内容展示 -->
     <div class="container">
         <div class="row">
@@ -206,6 +207,7 @@
                     <br>
                     <h3 class="text-muted" id="name"></h3>
                     <p id="description" class="text-dark"></p>
+                    <a id="btn" href="course_detail.html" class="btn btn-primary"></a>
                 </div>
             </div>
         </div>
@@ -337,6 +339,7 @@
                     document.getElementById("name").innerText = key;
                     document.getElementById("description").innerText = "Sulitimer 带你窥探汉堡的世界~";
                     document.getElementById("pic").src = "img/search/Humburger.jpg";
+                    document.getElementById("btn").innerText = "进入课程";
                     break;
                 }
                 else {

@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ebd9ade0-9542-48fe-a9de-da703339becf" name="Default Changelist" comment="Course Details Finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/certifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/certifications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +56,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="68" />
-          <entry key="html" value="10976" />
+          <entry key="html" value="11288" />
           <entry key="js" value="10" />
           <entry key="txt" value="242" />
         </counts>
@@ -66,7 +64,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="68" />
-          <entry key="HTML" value="10976" />
+          <entry key="HTML" value="11288" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="242" />
         </counts>
@@ -96,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/certifications.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+            <state relative-caret-position="550">
+              <caret line="203" column="111" selection-start-line="203" selection-start-column="111" selection-end-line="203" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -244,6 +242,9 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Li Yingping\WebstormProjects\FunnyCompany\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Li Yingping\WebstormProjects\FunnyCompany\js" />
       <recent name="C:\Users\Li Yingping\WebstormProjects\FunnyCompany\css" />
@@ -281,7 +282,7 @@
       <workItem from="1542196209027" duration="5710000" />
       <workItem from="1542243020834" duration="18890000" />
       <workItem from="1542271201852" duration="40000" />
-      <workItem from="1542279580963" duration="1186000" />
+      <workItem from="1542279580963" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="About.html Finished">
       <created>1542113421293</created>
@@ -364,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86019000" />
+    <option name="totallyTimeSpent" value="87804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -564,8 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/certifications.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        <state relative-caret-position="550">
+          <caret line="203" column="111" selection-start-line="203" selection-start-column="111" selection-end-line="203" selection-end-column="111" />
         </state>
       </provider>
     </entry>

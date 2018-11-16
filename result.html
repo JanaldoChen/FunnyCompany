@@ -328,7 +328,7 @@
     $(document).ready(
         function search() {
             // 定义搜索内容范围
-            var list = ["汉堡的组成原理"];
+            var list = ["语文"];
             var url = window.document.location.href.toString();
             var keys = url.split("=");
             var key = decodeURI(keys[1]);
@@ -336,9 +336,9 @@
             for (item in list) {
                 if (key == list[item]) {
                     document.getElementById("number").innerText = '1';
-                    document.getElementById("name").innerText = key;
-                    document.getElementById("description").innerText = "Sulitimer 带你窥探汉堡的世界~";
-                    document.getElementById("pic").src = "img/search/Humburger.jpg";
+                    document.getElementById("name").innerText = 'Lemon的修辞学和标点法';
+                    document.getElementById("description").innerText = "Lemon带你探秘语言的世界有多神秘，就譬如说，Lemon的这句话里有标点错误，你发现了吗？";
+                    document.getElementById("pic").src = "img/search/chinese.jpg";
                     document.getElementById("btn").innerText = "进入课程";
                     break;
                 }
